@@ -16,18 +16,7 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.boxShadow{
+  box-shadow: 0px 0px 16px 10px solid black;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
